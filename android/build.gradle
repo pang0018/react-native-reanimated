@@ -33,6 +33,7 @@ repositories {
 dependencies {
     implementation 'com.facebook.react:react-native:+'
 //    implementation "com.android.support:transition:${rootProject.ext.supportLibVersion}"
+    implementation 'androidx.appcompat:appcompat:1.1.0-alpha05'
 }
 
 def configureReactNativePom(def pom) {
